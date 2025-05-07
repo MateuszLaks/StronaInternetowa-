@@ -1,0 +1,100 @@
+
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  #kontakt {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+
+  #kontakt h2 {
+    text-align: center;
+  }
+  
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  label {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  .przyciski {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  button { 
+    padding:10px 20px;  
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e65c00;
+  }
+  .dane {
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    text-align: center;
+  }
+  
+  .dane h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .dane p {
+    margin: 5px 0;
+    font-size: 1em;
+  }
+  @media (max-width: 768px) {
+    p {
+      width: 90%;
+      font-size: 16px;
+    }
+  
+    .responsive {
+      max-width: 90%;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .player-container {
+      flex-direction: column;
+    }
+  
+    .gallery {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
